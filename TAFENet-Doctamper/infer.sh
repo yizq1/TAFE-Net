@@ -1,0 +1,2 @@
+# CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash tools/dist_test.sh configs/tafenet/tafenet_segformer_doctamper.py tafenet_segformer_doctamper.pth 8
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash tools/dist_test.sh configs/tafenet/tafenet_convnext_doctamper.py tafenet_convnext_doctamper.pth 8
